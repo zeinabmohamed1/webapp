@@ -22,9 +22,9 @@ $LoginPassword="";
   
   	mysql_select_db($db_name , $con);
 	
-	$person_id= $_GET[person_id] ;
-	if ( isset($_GET['person_id'])) {
-	$sql = "DELETE FROM users WHERE user_id ='$u_id'" ;}
+	$uu_id= $_GET[u_id] ;
+	if ( isset($_GET['u_id'])) {
+	$sql = "DELETE FROM users WHERE user_id ='$uu_id'" ;}
 	
 	mysql_query($sql,$con) ;
 	
